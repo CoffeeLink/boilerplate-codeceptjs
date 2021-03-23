@@ -7,6 +7,7 @@ exports.config = {
       windowSize: "1600x1000",
       chrome: {
         args: ["--no-sandbox", "--root"],
+        // executablePath: "/your_path_chromium_file/Chromium.app/Contents/MacOS/Chromium" --> uncomment this part if you use ARM arch like macbook with m1 processor
       },
     },
   },
