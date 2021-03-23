@@ -1,6 +1,6 @@
 const { I } = inject();
-const { filter } = require("../pages/filter_element");
-const { environment, inputFilter } = require("../utils/constants");
+const { filter } = require("../../pages/filter_element");
+const { environment, inputFilter } = require("../../utils/constants");
 // Add in your custom step files
 
 Given("user open amazon website", () => {
